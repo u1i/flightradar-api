@@ -4,7 +4,7 @@ sys.getdefaultencoding()
 
 import flightradar24
 
-flight = 'SQ227'
+flight = 'SQ212'
 fr = flightradar24.Api()
 details = fr.get_flight(flight)
 
